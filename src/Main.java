@@ -80,6 +80,17 @@ public class Main {
 //        Q28 q28 = new Q28();
 //        q28.calculateElectricityBill();
 
+//        Q29 q29=new Q29();
+//        q29.checkNumber();
+
+//         Q30 q30=new Q30();
+//         q30.checkDivisible();
+
+//         Q31 q31=new Q31();
+//         q31.checkDays();
+
+//         Q33 q33=new Q33();
+//         q33.checkSalary();
 
 //        Q34 q34 = new Q34();
 //        q34.checkUnits();
@@ -108,6 +119,14 @@ public class Main {
 //        Q42 q42 = new Q42();
 //        q42 .checkCentimeter();
 
+//        Q43 q43 = new Q43();
+//        q43.checkAmOrPm();
+
+//       Q44 a=new Q44();
+//       a.check();
+
+//        Q45 q45 = new Q45();
+//        q45.makeCalculator1();
 
     }
 }
