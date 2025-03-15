@@ -54,6 +54,8 @@ public class Q37 {
             System.out.println("The number is in decreasing order");
         }else if (getNum1()<getNum2()&&getNum2()<getNum3()){
             System.out.println("The number is in increasing order");
+        }else {
+            System.out.println("error because the entered numbers are not both increasing or decreasing form");
         }
     }
 }

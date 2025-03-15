@@ -18,6 +18,8 @@ public class Q23 {
         } else if (temp>=40) {
             System.out.println("Very Hot");
 
+        }else {
+            System.out.println("please enter correct temperature");
         }
     }
 

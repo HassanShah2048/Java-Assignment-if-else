@@ -32,6 +32,8 @@ public class Q28 {
         }if(bill<100){
             bill=100;
             System.out.println("Your total  bill is : "+bill);
-  }
+        }else {
+            System.out.println("error");
+        }
     }
 }

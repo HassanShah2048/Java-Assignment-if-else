@@ -1,7 +1,7 @@
 public class LargestOfThreeNumbers {
-    int firstNumber = 120938;
-    int secondNumber = 25894;
-    int thirdNumber = 52244562;
+    public int firstNumber = 120938;
+    public int secondNumber = 25894;
+    public int thirdNumber = 52244562;
 
     public void findLargestNumber() {
         if (firstNumber > secondNumber && firstNumber > thirdNumber) {
@@ -10,6 +10,8 @@ public class LargestOfThreeNumbers {
             System.out.println("Second number is greater ");
         } else if (thirdNumber>firstNumber && thirdNumber>secondNumber) {
             System.out.println("third number greater");
+        }else {
+            System.out.println("error");
         }
     }
 }
