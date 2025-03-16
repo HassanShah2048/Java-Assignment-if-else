@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Q44 {
-  void  check(){
+  public void  check(){
       Scanner scanner = new Scanner(System.in);
       System.out.print("Enter a number: ");
       String number = scanner.next();
