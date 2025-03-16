@@ -51,8 +51,8 @@ public class Q42 {
         System.out.print("if you want to calculate in kilometers press "+2+" "  );
         setKilometers(scanner.nextDouble());
 
-        double meters=getCentimeter()*100;
-        double kilometer=getCentimeter()*100000;
+        double meters=getCentimeter()/100;
+        double kilometer=getCentimeter()/100000;
         if (getMeter()==1){
             System.out.println("your centimeters in meter is :"+meters);
         }else {
