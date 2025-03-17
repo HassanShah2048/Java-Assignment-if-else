@@ -25,13 +25,13 @@ public class Q34 {
             System.out.println("your bill is :"+bill);
             System.out.println("And your tax is :"+tax);
             System.out.println("And your total bill with tax is :"+(bill+tax));
-        } else if (getUnits()>50&&getUnits()<=100) {
+        } else if (getUnits()>50&&getUnits()<=150) {
             bill=getUnits()*0.75;
             double tax=(bill/100)*20;
             System.out.println("your bill is :"+bill);
             System.out.println("And your tax is :"+tax);
             System.out.println("And your total bill with tax is :"+(bill+tax));
-        } else if (getUnits()>100&&getUnits()<=200) {
+        } else if (getUnits()>150&&getUnits()<=250) {
             bill=getUnits()*1.20;
             double tax=(bill/100)*20;
             System.out.println("your bill is :"+bill);
